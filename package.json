@@ -1,15 +1,24 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": {"name": "raul alejandro fuentes"},
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "alejandro fuentes",
+  "description": "some microservice for studing",
+  "keywords": [
+    "freecodecamp",
+    "mciroservice",
+    "api"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "dependencies": {
+    "moment": "2.14.0",
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
